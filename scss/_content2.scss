@@ -1,0 +1,63 @@
+.content2 {
+	display: flex;
+	margin-left: 220px;
+	margin-top: 103px;
+}
+
+.portfolio {
+	margin-left: 85px;
+	width: 386px;
+	height: 296px;
+}
+
+.portfolio h1 {
+	font-size: 40px;
+	letter-spacing: -2px;
+	line-height: 46px;
+	text-transform: uppercase;
+	color: #314a5b;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+}
+
+.portfolio h4 {
+	margin-top: 10px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #314a5b;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+.portfolio p {
+	width: 334px;
+	font-size: 15px;
+	line-height: 22px;
+	color: #9aa0ab;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 25px;
+}
+
+.text3 {
+	display: flex;
+	transition: .1s;
+	margin-top: 10px;
+	transition: .2s;
+}
+
+.text3:hover {
+	cursor: pointer;
+	transform: scaleX(98%);
+}
+
+.text3 p {
+	margin-top: 29px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fa5c65;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	text-transform: uppercase;
+	width: 11%;
+}

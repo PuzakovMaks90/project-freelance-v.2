@@ -1,0 +1,104 @@
+.menu {
+	display: flex;
+	margin-left: 350px;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu li {
+	margin-right: 6px;
+	border-radius: 20px;
+	transition: .1s;
+}
+
+.menu li:last-child {
+	margin-right: 0;
+}
+.menu li a {
+	display: block;
+	color: #263742;
+	padding: 5px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu li:hover a {
+	cursor: pointer;
+	color: white;
+}
+
+.social {
+	display: flex;
+} 
+
+.social i {
+	padding: 0 10px;
+	font-size: 20px;
+	color: tomato;
+	transition: .2s;
+}
+
+.social i:hover {
+	cursor: pointer;
+	transform: scale(115%);
+}
+
+.box-item1 {
+	margin-top: 306px;
+	margin-left: 220px;
+	width: 510px;
+	height: 142px;
+}
+
+.box-item1 h1 {
+	font-size: 48px;
+	line-height: 53px;
+	color: #314a5b;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.fa-solid {
+	font-size: 7px;
+	color: tomato;
+}
+
+.box-item1 h3 {
+	font-size: 20px;
+	line-height: 40px;
+	color: #314a5b;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 7px;
+}
+
+.button2 {
+	width: 171px;
+	height: 64px;
+	margin-top: 30px;
+	border-radius: 7px;
+	background-color: #fa5c65;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: .3s;
+}
+
+.button2:hover {
+	cursor: pointer;
+	transform: scale(105%);
+}
+
+.button2 p {
+	font-size: 15px;
+	line-height: 48px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-transform: uppercase;
+}

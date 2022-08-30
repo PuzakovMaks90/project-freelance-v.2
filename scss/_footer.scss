@@ -1,0 +1,42 @@
+.down-line {
+	border-bottom: 1px solid silver;
+	margin-left: 220px;
+	width: 70%;
+	margin-top: 58px;
+}
+
+.down {
+	display: flex;
+}
+
+.social-links {
+	display: flex;
+	margin-left: 220px;
+	padding: 42px 0;
+	font-size: 18px;
+	width: 10%;
+	height: 30px;
+	justify-content: space-between;
+	align-items: center;
+	color: silver;
+}
+
+.fa-brands {
+	transition: .2s;
+}
+
+.fa-brands:hover {
+	cursor: pointer;
+	transform: scale(110%);
+}
+
+.down p {
+	margin-left: 545px;
+	font-size: 13px;
+	line-height: 60px;
+	color: #b9c0c6;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+	text-align: right;
+	margin-top: 10px;
+}

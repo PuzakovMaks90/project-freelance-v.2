@@ -1,0 +1,38 @@
+.header {
+	background-image:
+	linear-gradient(243deg, rgba(183,209,206,0.3253676470588235) 0%, rgba(183,209,206,0.4206057422969187) 100%),
+		url(../img/foto1.jpg);
+	height: 1058px;
+}
+
+.img {
+	display: flex;
+}
+
+.relative {
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+
+.relative-content {
+	display: flex;
+}
+
+.button1 {
+	margin-left: 200px;
+	width: 140px;
+	height: 74px;
+	border-radius: 8px;
+	background-color: #fa5c65;
+}
+
+.button1 p {
+	font-size: 20px;
+	line-height: 100px;
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Domine";
+	display: flex;
+	justify-content: center;
+}

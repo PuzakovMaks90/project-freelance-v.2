@@ -1,0 +1,105 @@
+.content3 {
+	margin-left: 220px;
+	margin-top: 103px;
+}
+
+.content3 h1 {
+	font-size: 32px;
+	letter-spacing: -1px;
+	line-height: 54px;
+	text-transform: uppercase;
+	color: #314a5b;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+}
+
+.content3 h4 {
+	font-size: 16px;
+	line-height: 20px;
+	color: #9aa0ab;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+.team {
+	display: flex;
+	margin-top: 43px;
+}
+
+.team-content {
+	display: flex;
+}
+
+.team-foto img {
+	border-radius: 50%;
+	border: 1px solid silver;
+}
+
+.team-info {
+	width: 160px;
+	height: 115px;
+	margin-left: 20px;
+}
+
+.team-info h2 {
+	font-size: 22px;
+	letter-spacing: 0px;
+	line-height: 54px;
+	text-transform: uppercase;
+	color: #314a5b;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	height: 42px;
+}
+
+.team-info h4 {
+	font-size: 14px;
+	line-height: 20px;
+	color: #f0454c;
+	font-weight: 700;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+.team-info p {
+	width: 147px;
+	height: 44px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #9aa0ab;
+	font-weight: 400;
+	font-family: "Open Sans", Arial, sans-serif;
+	margin-top: 8px;
+}
+
+.team-content:last-child {
+	margin-left: 20px;
+}
+
+.team-content:nth-child(even) {
+	margin-left: 15px;
+}
+
+.text4 {
+	display: flex;
+	transition: .1s;
+	margin-top: 20px;
+	justify-content: flex-end;
+	margin-right: 100px;
+	width: 83%;
+	transition: .2s;
+}
+
+.text4:hover {
+	cursor: pointer;
+	transform: scale(101%);
+}
+
+.text4 p {
+	margin-top: 29px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #fa5c65;
+	font-weight: 700;
+	font-family: "Montserrat", Arial, sans-serif;
+	text-transform: uppercase;
+}
